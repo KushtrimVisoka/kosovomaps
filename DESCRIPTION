@@ -1,0 +1,21 @@
+Package: kosovomaps
+Title: Maps of the Republic of Kosovo
+Version: 0.0.1
+Authors@R: 
+    person(given = "Kushtrim",
+           family = "Visoka",
+           role = c("aut", "cre"),
+           email = "kushtrim.visoka@gmail.com",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: This package contains the state and municipal borders of the Republic of Kosovo.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Depends: R (>= 2.10)
+Imports: sf, dplyr
+NeedsCompilation: no
+Packaged: 2020-11-01 20:21:07 UTC; kushtrimvisoka
+Author: Kushtrim Visoka [aut, cre] (YOUR-ORCID-ID)
+Maintainer: Kushtrim Visoka <kushtrim.visoka@gmail.com>
