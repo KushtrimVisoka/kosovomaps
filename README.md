@@ -13,7 +13,7 @@ You can install the released version of kosovomaps from GitHub:
 
 ``` r
 # Dev version
-devtool::install_github("Kushtrimvisoka/kosovomaps")
+devtools::install_github("Kushtrimvisoka/kosovomaps")
 ```
 
 ## Basic Usage
