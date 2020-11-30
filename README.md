@@ -1,12 +1,12 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# kosovomaps
+# kosovomaps <img src='man/figures/logo.png' align="right" height="139" />
 
 <!-- badges: start -->
 <!-- badges: end -->
 
-## Installation
+### Installation
 
 You can install the released version of kosovomaps from GitHub:
 
@@ -15,9 +15,9 @@ You can install the released version of kosovomaps from GitHub:
 devtools::install_github("Kushtrimvisoka/kosovomaps")
 ```
 
-## Basic Usage
+### Basic Usage
 
-### 1) Load packages
+#### 1) Load packages
 
 ``` r
 library(kosovomaps)
@@ -32,7 +32,7 @@ library(tidyverse)
 #> x dplyr::lag()    masks stats::lag()
 ```
 
-### 2) Load the map of Kosovo - State level:
+#### 2) Load the map of Kosovo - State level:
 
 ``` r
 RepublicOfKosovo <- mapof(x = "state")
@@ -48,7 +48,7 @@ ggplot(RepublicOfKosovo)+
 
 <img src="man/figures/README-pressure-1.png" width="100%" />
 
-### 3) Load the map of Kosovo - Municipal level:
+#### 3) Load the map of Kosovo - Municipal level:
 
 ``` r
 MunicipOfKosovo <- mapof(x = "municip")

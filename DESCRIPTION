@@ -1,6 +1,6 @@
 Package: kosovomaps
 Title: Maps of the Republic of Kosovo
-Version: 0.0.2
+Version: 0.0.3
 Authors@R: 
     person(given = "Kushtrim",
            family = "Visoka",
@@ -16,6 +16,6 @@ RoxygenNote: 7.1.1
 Depends: R (>= 2.10)
 Imports: sf, dplyr
 NeedsCompilation: no
-Packaged: 2020-11-23 00:59:33 UTC; kushtrimvisoka
+Packaged: 2020-11-30 12:07:58 UTC; kushtrimvisoka
 Author: Kushtrim Visoka [aut, cre] (YOUR-ORCID-ID)
 Maintainer: Kushtrim Visoka <kushtrim.visoka@gmail.com>
